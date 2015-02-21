@@ -1,0 +1,8 @@
+export XMODIFIERS=@im=uim
+export GTK_IM_MODULE=uim
+export QT_IM_MODULE=uim
+export QT4_IM_MODULE=uim
+/usr/bin/uim-toolbar-qt4 &
+
+mkdir -p /run/shm/$USER/firefox
+ln -fsn  /run/shm/$USER/firefox ~/.cache/mozilla/firefox
