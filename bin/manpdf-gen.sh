@@ -2,7 +2,7 @@
 set -e
 set -u
 
-dstroot=~/Manpages
+dstroot=${HOME}/Manpages
 update_interval=14
 
 cd /usr/share/man
